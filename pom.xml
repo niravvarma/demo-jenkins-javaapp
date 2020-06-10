@@ -63,6 +63,8 @@
                               <arg>-Xlint:all,-options,-path</arg>
                               <arg>-Xdebug</arg>      
                             </compilerArgs>
+                           <fork>true</fork>
+                           <executable>${JAVA_HOME}/bin/javac</executable>
                   </configuration>
          </plugin>
             <plugin>
