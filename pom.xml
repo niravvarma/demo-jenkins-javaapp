@@ -57,9 +57,11 @@
                            <source>1.8</source>
                            <target>1.8</target>
                            <encoding>UTF-8</encoding>
+                           <debug>true</debug>
                            <compilerArgs>
                               <arg>-verbose</arg>
                               <arg>-Xlint:all,-options,-path</arg>
+                              <ard>-Xdebug</arg>      
                             </compilerArgs>
                   </configuration>
          </plugin>
