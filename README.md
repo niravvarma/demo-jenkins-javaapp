@@ -18,3 +18,9 @@ Jenkins Plugins installed:
 3. https://plugins.jenkins.io/jacoco/ for code coverage reports.
 4. https://plugins.jenkins.io/maven-plugin/ for maven integration.
 5. https://plugins.jenkins.io/warnings-ng/ - visualisation for warnings, compiler errors, etc.
+
+Some known issues and workaround:
+1. Plugin Manager -> Advanced, change the update site url from https to http
+2. Manage Jenkins -> Configure System -> Set Global variables like JAVA_HOME and JDK
+3. Manage Jenkins -> Global Tool Configuration -> Add JDK -> JDK name: Java8 and JAVA_HOME: local path to JDK
+4. Manage Jenkins -> Global Tool Configuration -> Maven -> name: maven3 and Install from Apache: select the version and select "install automatically"
