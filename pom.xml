@@ -60,8 +60,7 @@
                            <debug>true</debug>
                            <compilerArgs>
                               <arg>-verbose</arg>
-                              <arg>-Xlint:all,-options,-path</arg>
-                              <arg>-Xdebug</arg>      
+                              <arg>-Xlint:all,-options,-path</arg>      
                             </compilerArgs>
                            <fork>true</fork>
                            <executable>${JAVA_HOME}/bin/javac</executable>
